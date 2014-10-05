@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	<meta title="twodee" package="twodee" version="1.0.0" company="Kozie" />
+
+	<assets path="assets/sounds" include="*.ogg" if="html5" unless="unit-test" />
+	<assets path="assets/sounds" include="*.mp3" if="flash" embed="true" />
+	<assets path="assets/sounds" include="*.ogg" unless="flash || html5" embed="true" />
+
+	<!-- source path="twodee" / -->
+
+	<haxelib name="openfl" />
+</project>

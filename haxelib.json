@@ -1,0 +1,14 @@
+{
+  "name": "twodee",
+  "url" : "https://github.com/kozie/twodee.hx",
+  "license": "None",
+  "tags": ["game", "2d", "openfl"],
+  "description": "Simple library for 2d game dev",
+  "version": "1.0.0",
+  "releasenote": "Initial release",
+  "contributors": ["Kozie"],
+  "dependencies": {
+    "lime": "",
+    "openfl": ""
+  }
+}
